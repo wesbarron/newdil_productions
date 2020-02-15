@@ -1,0 +1,85 @@
+#header-title {
+    color: white;
+}
+
+#paulPic {
+    float: right;
+    padding-left: 12px;
+    padding-top: 36px;
+}
+
+.jumbotron {
+    background-image: url('../images/bannerLiberia.jpg');
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-color: red;
+    border-radius: 0%;
+    background-position-y: center;
+}
+
+.container {
+    background-image: url('https://wallpapertag.com/wallpaper/full/f/2/9/350875-best-website-background-2880x1440-images.jpg');
+    
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #343a40;
+    color: white;
+}
+
+#index-footer {
+    
+    bottom: 0;
+}
+
+#emailID, #nameID {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #343a40;
+    color: white;
+}
+
+#success-msg {
+    display: none;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(134, 133, 133);
+}
+
+@media only screen and (max-width: 1200px) {
+    #header-title {
+        color: white;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+    }
+
+    .teamImg {
+        height: 250px;
+    }
+
+    .jumbotron {
+        background-image: url('../images/newBannerPic2.jpg');
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .teamImg {
+        height: 175px;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
